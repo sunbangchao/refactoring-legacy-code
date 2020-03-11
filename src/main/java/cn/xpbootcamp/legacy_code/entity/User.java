@@ -11,4 +11,13 @@ public class User {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
+    public User(long id, double balance) {
+        this.id = id;
+        this.balance = balance;
+    }
+
+    public long getId() {
+        return id;
+    }
 }
